@@ -1,0 +1,42 @@
+name: calcium_imaging_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+
+
+  - scikit-learn
+
+  - matplotlib
+  - bokeh
+
+  - pyyaml
+  - pytables
+  - opencv
+
+  - pip:
+      - pyMou@git+https://github.com/mb-BCA/pyMOU.git@master
+
+      - networkx
+      - Shapely
+
+
+      - psutil
+
+      - wheel
+      - cython
+      - versioned-hdf5
+      - h5py
+
+
+      - torch	
+      - sphinx
+      - sphinx-autoapi
+      - numpydoc
+
+
